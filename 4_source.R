@@ -2,7 +2,7 @@
 rm(list = ls())
 
 # PACOTES NECESSÁRIOS
-source("packages.R")
+source("CallLibraries.R")
 CallLibraries(c("data.table", "stargazer", "dplyr", "ggplot2", "ggcorrplot", "oaxaca"))
 
 # CHAMANDO SCRIPTS
